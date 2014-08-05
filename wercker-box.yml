@@ -13,5 +13,4 @@ keywords:
 script: |
   sudo apt-get update -qq
   # Install texlive-full except for *-doc packages.
-  sudo apt-get install -y $(apt-cache depends texlive-full | sed -n -e 's/-doc$/-doc-/' -e 's/ *Depends: //p')  \
-    biber make latexmk
+  sudo apt-get install -y $(apt-cache depends texlive-full | sed -n -e 's/-doc$/-doc-/' -e 's/ *Depends: //p') biber make latexmk
