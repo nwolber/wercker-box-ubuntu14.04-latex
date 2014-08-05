@@ -1,9 +1,9 @@
 name: ubuntu14.04-latex
 version: 1.0.0
 description: Ubuntu 14.04 with full LaTeX install
-inherits: tvaughan/ubuntu14.04
+inherits: tvaughan/ubuntu14.04@1.0.1
 type: main
-platform: ubuntu@14.04
+platform: ubuntu@12.04
 keywords:
   - ubuntu
   - 14.04
