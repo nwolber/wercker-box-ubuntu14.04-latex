@@ -10,3 +10,6 @@ keywords:
   - trusty
   - latex
   - texlive
+script: |
+  sudo apt-get update -qq
+  sudo apt-get install -y texlive-full make latexmk biblatex biber pandoc pandoc-citeproc libtext-multimarkdown-perl python3-docutils
