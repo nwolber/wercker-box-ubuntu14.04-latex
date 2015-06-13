@@ -1,5 +1,5 @@
 name: ubuntu14.04-latex
-version: 1.0.1
+version: 1.0.2
 description: Ubuntu 14.04 with full LaTeX install
 inherits: tvaughan/ubuntu14.04@1.0.1
 type: main
@@ -10,6 +10,7 @@ keywords:
   - trusty
   - latex
   - texlive
+  - koma-script
 script: |
   sudo apt-get update -qq
   # Install texlive-full except for *-doc packages.
